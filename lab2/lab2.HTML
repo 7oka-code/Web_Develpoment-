@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Lab 2</title>
+<style>
+.div1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.div2{
+    text-align: center;
+}
+.div3{
+    text-align: center;
+    display: flex;
+    
+
+}
+.first{
+    display: inline-block;
+    width : 500px;
+    text-align: center;
+}
+.sec{
+    display: inline-block;
+    width : 500px;
+    text-align: center;
+}
+.third{
+    display: inline-block;
+    width : 500px;
+    text-align: center;
+}
+.headers{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 30px 0 20px;
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+     padding: 0 500px;
+}
+</style>
+</head>
+<body >
+<div class="div1">
+    <h1 >
+       Mahmoud Mohamed
+    </h1>
+    <p>Computer Engineering Student | Software Engineer | Developer </p>
+    <p>About | Projects | Contact</p>
+</div>
+<div class="div2">
+    <h1 class="headers">
+        about me
+    </h1>
+    <p> Motivated Computer Engineering student enrolled in the dual-degree programme between Ain Shams University and
+        the University of East London. Passionate about independently designing and building complete systems—from procedural 
+        game engines and CPU architectures to compilers and machine learning pipelines—and translating theoretical coursework 
+        into working, well-engineered software.</p>
+</div>
+  <h1 class="headers">projects</h1>
+<div class="div3">
+  
+    <div class = "first">
+        <h3>Dungeon BSP Generator – Procedural Roguelike Engine</h3>
+        <p>Designed and built a procedural dungeon generator from scratch using a Binary Space Partitioning (BSP) algorithm in C++ and Raylib to produce interconnected levels, 
+            featuring a custom STL-free dynamic array, recursive BSP tree logic, and a full game loop with collision detection and fog-of-war.</p>
+    </div>
+    <div class = "sec">
+         <h3>Tiny Language Compiler</h3>
+        <p>Developed a compiler for the TINY programming language from scratch using C++, 
+            implementing all major compilation phases including lexical analysis, parsing, semantic analysis, and code generation</p>
+    </div>
+    <div class = "third">
+         <h3>MIPS Processor Design</h3>
+        <p>Designed and simulated a full MIPS CPU in VHDL supporting R-type, I-type, and J-type instructions, 
+            including a custom register file, 32-bit ALU, control unit, datapath, and memory modules.</p>
+    </div>
+</div>
+<h1 class = "headers">contact me</h1>
+<div class="div4">
+    
+    <input type="text" placeholder="Your Name">
+    <input type="text" placeholder="Your email">
+    <textarea placeholder="Your message"></textarea>
+    <button type="submit">send message</button>
+</div>
+</body>
+</html>
